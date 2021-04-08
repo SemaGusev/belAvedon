@@ -1,0 +1,50 @@
+.footer__data {
+    margin-top: 1rem;
+
+    font-size: 1.1rem;
+    color: $red;
+}
+.footer {
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+    .footer__numbers {
+    text-decoration: none;
+    font-size: 1.0rem;
+    color: $black;
+
+    &:hover {
+        color: $red;
+        text-decoration: underline;
+    }
+
+}
+
+
+.footer__adres {
+    font-size: 1rem;
+    color: $black;
+}
+
+.footer__info--text {
+    margin: .6rem;
+    text-align: center;
+    color: rgb(43, 0, 0);
+    font-size: .9rem;
+}
+
+.creator {
+    text-align: center;
+    color: rgb(80, 0, 0);
+    font-size: .8rem;
+}
+
+.creator__info {
+    color: $black;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+} 
